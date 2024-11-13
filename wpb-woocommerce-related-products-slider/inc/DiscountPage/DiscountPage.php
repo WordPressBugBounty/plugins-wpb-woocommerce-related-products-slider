@@ -12,8 +12,8 @@ class WPBean_WC_Related_Products_Slider_DiscountPage
 	 * @var array
 	 */
 	public $args = array(
-		'page_title'  			=> 'Best Halloween WordPress Deals on Top Plugins Now! (2024)',
-		'menu_title'  			=> 'Halloween Offer',
+		'page_title'  			=> 'Best Black Friday WordPress Deals on Top Plugins Now! (2024)',
+		'menu_title'  			=> 'Black Friday Offer',
 		'menu_slug'   			=> 'wpbean-discount',
 		'icon_url'    			=> '',
 		'menu_type'   			=> 'submenu',                  // menu or submenu.
@@ -94,10 +94,10 @@ class WPBean_WC_Related_Products_Slider_DiscountPage
 		?>
 		<div class="wpb-plugin-discount-page">
 			<div class="wpb-plugin-discount-page-header">
-				<img src="<?php echo plugins_url( 'assets/icons/halloween-horror-pumpkin.svg', __FILE__ ); ?>">
+				<img src="<?php echo plugins_url( 'assets/icons/black-friday.svg', __FILE__ ); ?>">
 				<div>
-					<h2>Top Halloween WordPress Offers on WPBean Premium Plugins.</h2>
-					<p>This Halloween, treat yourself to a hauntingly good deal with an exclusive 35% discount on our top-rated plugins! For a limited time, you can enhance your projects with powerful features at an unbeatable price. Don't miss out on this special offer to elevate your work and add some magic to your creative toolkit.</p>
+					<h2>Top Black Friday WordPress Offers on WPBean Premium Plugins.</h2>
+					<p>This Black Friday, treat yourself to a hauntingly good deal with an exclusive 35% discount on our top-rated plugins! For a limited time, you can enhance your projects with powerful features at an unbeatable price. Don't miss out on this special offer to elevate your work and add some magic to your creative toolkit.</p>
 					<p>Use this discount code: <b>HALLOWEEN35</b></p>
 					<a href="https://wpbean.com/plugins/?utm_content=WPB+Plugins+Page&utm_campaign=halloween&utm_medium=halloween-page&utm_source=FreeVersion" target="_blank" class="button">Grab the Deal</a>
 				</div>
@@ -157,12 +157,10 @@ class WPBean_WC_Related_Products_Slider_DiscountPage
 		if ( ! get_user_meta( $user_id, $args['notice_meta_key'] ) && $args['notice_exception'] !== $screen->base ) {
 			?>
 			<div class="wpb-plugin-discount-page-header notice updated is-dismissible">
-				<img src="<?php echo plugins_url( 'assets/icons/halloween-horror-pumpkin.svg', __FILE__ ); ?>">
+				<img src="<?php echo plugins_url( 'assets/icons/black-friday.svg', __FILE__ ); ?>">
 				<div>
-					<h2>Top Halloween WordPress Offers on WPBean Premium Plugins.</h2>
-					<p>This Halloween, treat yourself to a hauntingly good deal with an exclusive 35% discount on our top-rated plugins! For a limited time, you can enhance your projects with powerful features at an unbeatable price. Don't miss out on this special offer to elevate your work and add some magic to your creative toolkit.</p>
-					<p>Use this discount code: <b>HALLOWEEN35</b></p>
-					<a href="<?php echo esc_url( $discount_url ); ?>" class="button">More Details</a>
+					<h3>Top Black Friday WordPress Offers on WPBean Premium Plugins.</h3>
+					<p>This Black Friday, treat yourself to a hauntingly good deal with an exclusive 35% discount on our top-rated plugins! For a limited time, you can enhance your projects with powerful features at an unbeatable price. Don't miss out on this special offer to elevate your work and add some magic to your creative toolkit. Use this discount code: <b>BF2024</b>. <a href="<?php echo esc_url( $discount_url ); ?>">More Details</a></p>
 					<a href="<?php echo esc_url( $dismiss_url ); ?>" class="notice-dismiss"></a>
 				</div>
 			</div>

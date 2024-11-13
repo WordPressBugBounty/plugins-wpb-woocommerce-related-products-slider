@@ -2,8 +2,8 @@
 Contributors: wpbean, imranwpb
 Tags: related products slider, related products, custom related products, woocommerce related products, products slider
 Requires at least: 5.0
-Tested up to: 6.6.2
-Stable tag: 1.3.8
+Tested up to: 6.7
+Stable tag: 1.3.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -186,5 +186,8 @@ Go to this plugin setting page, here you will see some color picker for selectin
 
 = version 1.3.8 =
 * Added discount page.
+
+= version 1.3.9 =
+* Tested with WordPress 6.7
 
 == Upgrade notice ==
