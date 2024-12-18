@@ -131,6 +131,19 @@ if( !function_exists('wpb_wrps_related_products') ){
 
 
 
+/**
+ * Related products slider shortcode
+ */
+if( !function_exists('wpb_wrps_get_related_products') ){
+	function wpb_wrps_get_related_products( $atts = array() ){
+		ob_start();
+		wpb_wrps_related_products();
+		return ob_get_clean();
+	}
+}
+
+add_shortcode( 'wpb_wrps_related_products', 'wpb_wrps_get_related_products' );
+
 
 
 /**
@@ -169,27 +182,6 @@ if( !function_exists('wpb_wrps_get_option') ){
 
 
 /**
- * WPBean Socail Info for Plugin settings page
- */
-
-add_action( 'wpb_wrps_before_settings','wpb_wpbean_socail_info' );
-if( !function_exists('wpb_wpbean_socail_info') ){
-	function wpb_wpbean_socail_info(){
-		?>
-		<div class="wpb_wpbean_socials">
-			<h3>For getting updates of our plugins, features update, WordPress new trend, New web technology etc. Follows Us.</h3>
-			<a href="https://twitter.com/wpbean" title="Follow us on Twitter" class="wpb_twitter" target="_blank">Follow Us On Twitter</a>
-			<a href="https://plus.google.com/u/0/+WpBean/posts" title="Follow us on Google+" class="wpb_googleplus" target="_blank">Follow Us On Google Plus</a>
-			<a href="https://www.facebook.com/wpbean" title="Follow us on Facebook" class="wpb_facebook" target="_blank">Like Us On FaceBook</a>
-			<a href="https://www.youtube.com/user/wpbean/videos" title="Follow us on Youtube" class="wpb_youtube" target="_blank">Subscribe Us on YouTube</a>
-		</div>
-		<?php
-	}
-}
-
-
-
-/**
  * PRO version Info
  */
 
@@ -197,7 +189,7 @@ add_action( 'wpb_wrps_settings_content', 'wpb_wrps_pro_version_info' );
 if( !function_exists( 'wpb_wrps_pro_version_info' ) ){
 	function wpb_wrps_pro_version_info(){
 		?>
-		<h3 class="ik">PRO Version Feature</h3>
+		<h3>WPB Related Products Slider Pro Features</h3>
 		<ul>
 			<li>Select product specific custom relative products.</li>
 			<li>Enable or disable slider pagination, navigation, auto play &amp; slider speed.</li>

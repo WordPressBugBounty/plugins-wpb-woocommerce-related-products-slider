@@ -2,8 +2,8 @@
 Contributors: wpbean, imranwpb
 Tags: related products slider, related products, custom related products, woocommerce related products, products slider
 Requires at least: 5.0
-Tested up to: 6.7
-Stable tag: 1.3.9
+Tested up to: 6.7.1
+Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -89,6 +89,9 @@ Go to this plugin setting page, here you will see a dropdown for selecting the t
 
 = How can I change the background & color of WPB Related Products Slider for WooCommerce? =
 Go to this plugin setting page, here you will see some color picker for selecting the theme.
+
+= I am using the Divi/Elementor for my product page, how can I show this products slider? =
+Go to this plugin setting page, and uncheck the "<b>Enable Related Products Slider</b>" checkbox and save the settings. After that, go to your Divi/Elementor product page builder and add this ShortCode <b>[wpb_wrps_related_products]</b> for showing the products slider.
 
 
 == Screenshots ==
@@ -189,5 +192,10 @@ Go to this plugin setting page, here you will see some color picker for selectin
 
 = version 1.3.9 =
 * Tested with WordPress 6.7
+
+= version 1.4 =
+* Added shortcode for showing the related products slider.
+* Added option for enable/disable the related products slider.
+* Tested with WordPress 9.5.1
 
 == Upgrade notice ==

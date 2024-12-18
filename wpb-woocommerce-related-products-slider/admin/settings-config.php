@@ -59,6 +59,13 @@ class wpb_wrps_settings {
         $settings_fields = array( 
 			
             'wpb_wrps_general' => array(
+                array(
+                    'name'      => 'wpb_wrps_enable_related',
+                    'label'     => esc_html__( 'Enable Related Products Slider', 'wpb-wrps' ),
+                    'desc'      => esc_html__( 'Yes Please!', 'wpb-wrps' ),
+                    'type'      => 'checkbox',
+                    'default'   => 'on',
+                ),
             	array(
                     'name' 		=> 'wpb_wrps_theme',
                     'label' 	=> esc_html__( 'Slider Theme', 'wpb-wrps' ),
@@ -126,10 +133,10 @@ class wpb_wrps_settings {
             			$this->settings_api->show_navigation();
             			$this->settings_api->show_forms();
                     ?>
+                    <div class="wpb_wrps_settings_content">
+                        <?php do_action ( 'wpb_wrps_settings_content' ); ?>
+                    </div>
         		</div>
-                <div class="wpb_wrps_settings_content">
-                    <?php do_action ( 'wpb_wrps_settings_content' ); ?>
-                </div>
             </div>
             <?php do_action ( 'wpb_wrps_after_settings' ); ?>
         <?php

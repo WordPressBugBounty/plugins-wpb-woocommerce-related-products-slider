@@ -98,8 +98,8 @@ class WPBean_WC_Related_Products_Slider_DiscountPage
 				<div>
 					<h2>Top Black Friday WordPress Offers on WPBean Premium Plugins.</h2>
 					<p>This Black Friday, treat yourself to a hauntingly good deal with an exclusive 35% discount on our top-rated plugins! For a limited time, you can enhance your projects with powerful features at an unbeatable price. Don't miss out on this special offer to elevate your work and add some magic to your creative toolkit.</p>
-					<p>Use this discount code: <b>HALLOWEEN35</b></p>
-					<a href="https://wpbean.com/plugins/?utm_content=WPB+Plugins+Page&utm_campaign=halloween&utm_medium=halloween-page&utm_source=FreeVersion" target="_blank" class="button">Grab the Deal</a>
+					<p>Use this discount code: <b>BF2024</b></p>
+					<a href="https://wpbean.com/plugins/?utm_content=WPB+Plugins+Page&utm_campaign=black-friday&utm_medium=black-friday-page&utm_source=FreeVersion" target="_blank" class="button">Grab the Deal</a>
 				</div>
 			</div>
 			<div class="wpb-plugin-discount-page-body">
@@ -109,8 +109,8 @@ class WPBean_WC_Related_Products_Slider_DiscountPage
 							foreach( $products as $product ){
 								$permalink =  add_query_arg( array(
 									'utm_content'  => 'WPB+Plugins+Page',
-									'utm_campaign' => 'halloween',
-									'utm_medium'   => 'halloween-page',
+									'utm_campaign' => 'black-friday',
+									'utm_medium'   => 'black-friday-page',
 									'utm_source'   => $args['utm_source'],
 								), $product->info->permalink );
 								?>
