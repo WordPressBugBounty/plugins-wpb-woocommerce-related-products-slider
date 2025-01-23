@@ -3,7 +3,7 @@
  * Plugin Name:       WPB Related Products Slider for WooCommerce
  * Plugin URI:        http://wpbean.com/plugins/
  * Description:       Highly customizable related product slider plugin for WooCommerce. 
- * Version:           1.4
+ * Version:           1.5
  * Author:            wpbean
  * Author URI:        http://wpbean.com
  * Text Domain:       wpb-wrps
@@ -118,7 +118,7 @@ function wpb_wrps_free_plugin_init(){
 	add_filter( 'plugin_action_links_' . plugin_basename(__FILE__), 'wpb_wrps_add_action_links' );
 
 	register_deactivation_hook( plugin_basename( __FILE__ ), 'wpb_wrps_lite_plugin_deactivation' );
-	//add_action( 'admin_notices', 'wpb_wrps_pro_discount_admin_notice' );
+	add_action( 'admin_notices', 'wpb_wrps_pro_discount_admin_notice' );
 	add_action( 'admin_init', 'wpb_wrps_pro_discount_admin_notice_dismissed' );
 
 	require_once dirname( __FILE__ ) . '/inc/wpb-wrps-filter.php';
@@ -127,9 +127,9 @@ function wpb_wrps_free_plugin_init(){
 	require_once dirname( __FILE__ ) . '/admin/class.settings-api.php';
 	require_once dirname( __FILE__ ) . '/admin/settings-config.php';
 
-	if( is_admin() ){
-		require_once dirname( __FILE__ ) . '/inc/DiscountPage/DiscountPage.php';
-		new WPBean_WC_Related_Products_Slider_DiscountPage();
-	}
+	// if( is_admin() ){
+	// 	require_once dirname( __FILE__ ) . '/inc/DiscountPage/DiscountPage.php';
+	// 	new WPBean_WC_Related_Products_Slider_DiscountPage();
+	// }
 }
 add_action( 'plugins_loaded', 'wpb_wrps_free_plugin_init' );

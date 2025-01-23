@@ -1,9 +1,9 @@
-=== WPB Related Products Slider for WooCommerce - Show WooCommerce Related Products Carousel ===
+=== WPB Related Products Slider for WooCommerce ===
 Contributors: wpbean, imranwpb
 Tags: related products slider, related products, custom related products, woocommerce related products, products slider
 Requires at least: 5.0
 Tested up to: 6.7.1
-Stable tag: 1.4
+Stable tag: 1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -11,7 +11,7 @@ Showing WooCommerce Related Products Carousel can be a very good option for show
 
 == Description ==
 
-WPB WooCommerce Related Products Slider plugin will replace the default WooCommerce related products with a nice and smooth slider of all related products. The slider is fully dynamic, just active and it's ready to show the slider of related products in single product page. No extra settings required.
+The WPB WooCommerce Related Products Slider plugin will create a beautiful and smooth slider of all related products in place of the default WooCommerce related products. The slider is fully dynamic, just active and it's ready to show the slider of related products in single product page. No extra settings required.
 
 The design of WPB WooCommerce Related Products Slider is very nice and standard, it will match with all kinds of WooCommerce store. It's fully responsive so nothing to worry about the small devices.
 
@@ -197,5 +197,8 @@ Go to this plugin setting page, and uncheck the "<b>Enable Related Products Slid
 * Added shortcode for showing the related products slider.
 * Added option for enable/disable the related products slider.
 * Tested with WordPress 9.5.1
+
+= version 1.5 =
+* Discount page removed.
 
 == Upgrade notice ==

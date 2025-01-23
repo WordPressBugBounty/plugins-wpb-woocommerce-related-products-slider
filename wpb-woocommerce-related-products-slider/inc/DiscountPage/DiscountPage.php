@@ -17,7 +17,7 @@ class WPBean_WC_Related_Products_Slider_DiscountPage
 		'menu_slug'   			=> 'wpbean-discount',
 		'icon_url'    			=> '',
 		'menu_type'   			=> 'submenu',                  // menu or submenu.
-		'parent_slug' 			=> '',   // for submenu only.
+		'parent_slug' 			=> 'options-general.php',   // for submenu only.
 		'capability'  			=> 'manage_options',
 		'position'    			=> 9,
 		'utm_source'    		=> 'WCRelatedProductsFreeVersion',
@@ -37,6 +37,7 @@ class WPBean_WC_Related_Products_Slider_DiscountPage
 
 		add_action( 'admin_notices', array( $this, 'discount_admin_notice' ) );
 		add_action( 'admin_init', array( $this, 'discount_admin_notice_dismissed' ) );
+		
 	}
 
 	public function admin_scripts(){
@@ -138,6 +139,12 @@ class WPBean_WC_Related_Products_Slider_DiscountPage
 	 * @return void
 	 */
 	public function discount_admin_notice() {
+		$screen 	 = get_current_screen();
+
+		if( 'settings_page_wpbean-discount' === $screen->base ){
+			return;
+		}
+
 		$args        = $this->args;
 		$user_id     = get_current_user_id();
 		$screen      = get_current_screen();
