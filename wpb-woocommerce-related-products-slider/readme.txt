@@ -2,12 +2,12 @@
 Contributors: wpbean, imranwpb
 Tags: related products slider, related products, custom related products, woocommerce related products, products slider
 Requires at least: 5.0
-Tested up to: 6.7.1
-Stable tag: 1.5
+Tested up to: 6.8.1
+Stable tag: 1.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Showing WooCommerce Related Products Carousel can be a very good option for showing more related products in the smaller areas of your product page.
+WPB WooCommerce related products slider can increase cross-selling and boost average order value. Personalized mobile-optimized shopping experience.
 
 == Description ==
 
@@ -16,6 +16,13 @@ The WPB WooCommerce Related Products Slider plugin will create a beautiful and s
 The design of WPB WooCommerce Related Products Slider is very nice and standard, it will match with all kinds of WooCommerce store. It's fully responsive so nothing to worry about the small devices.
 
 It has settings to manage the style settings & some basic setups.
+
+>[Get The PRO Version](https://wpbean.com/downloads/wpb-woocommerce-related-products-slider-pro/)  |   [DEMO](http://demo2.wpbean.com/?product=happy-ninja)  |  [Support](http://wpbean.com/support/)
+
+### 👋 Need expert WordPress & WooCommerce development help?
+I’m currently available for hire — WordPress and WooCommerce development, custom features, bug fixing, speed optimization, performance tuning, SEO improvements, and more.
+With over 10 years of experience building high-quality WordPress solutions, I can help you take your website to the next level. 
+[__Contact me here →__](https://wpbean.com/web-development-services/?utm_source=WordPress&utm_medium=desc-link&utm_campaign=available-for-hire&utm_content=WPB+WooCommerce+Related+Products+Slider)
 
 ### A WooCommerce related products slider can be incredibly helpful for several reasons:
 
@@ -26,9 +33,6 @@ It has settings to manage the style settings & some basic setups.
 1. <strong>Personalization</strong>: By leveraging customer data and preferences, you can customize the related product slider to display items that are most likely to interest each individual shopper, enhancing their overall shopping experience.
 
 Overall, a related product slider can significantly improve the effectiveness of your product recommendations, leading to higher conversion rates and increased customer satisfaction.
-
-
->[Get The PRO Version](https://wpbean.com/downloads/wpb-woocommerce-related-products-slider-pro/)  |   [DEMO](http://demo2.wpbean.com/?product=happy-ninja)  |  [Support](http://wpbean.com/support/)
 
 ### Plugin Features
 
@@ -200,5 +204,8 @@ Go to this plugin setting page, and uncheck the "<b>Enable Related Products Slid
 
 = version 1.5 =
 * Discount page removed.
+
+= version 1.6 =
+* Code improvement
 
 == Upgrade notice ==

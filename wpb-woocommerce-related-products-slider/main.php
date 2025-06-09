@@ -3,7 +3,7 @@
  * Plugin Name:       WPB Related Products Slider for WooCommerce
  * Plugin URI:        http://wpbean.com/plugins/
  * Description:       Highly customizable related product slider plugin for WooCommerce. 
- * Version:           1.5
+ * Version:           1.6
  * Author:            wpbean
  * Author URI:        http://wpbean.com
  * Text Domain:       wpb-wrps
@@ -127,9 +127,11 @@ function wpb_wrps_free_plugin_init(){
 	require_once dirname( __FILE__ ) . '/admin/class.settings-api.php';
 	require_once dirname( __FILE__ ) . '/admin/settings-config.php';
 
-	// if( is_admin() ){
-	// 	require_once dirname( __FILE__ ) . '/inc/DiscountPage/DiscountPage.php';
-	// 	new WPBean_WC_Related_Products_Slider_DiscountPage();
-	// }
+	if( is_admin() ){
+        if(!class_exists('WpBean_AccordionMenu_AvailableHire')){
+            include_once __DIR__ . '/inc/AvailableHire/AvailableHire.php';
+        }
+        new WpBean_AccordionMenu_AvailableHire();
+    }
 }
 add_action( 'plugins_loaded', 'wpb_wrps_free_plugin_init' );
