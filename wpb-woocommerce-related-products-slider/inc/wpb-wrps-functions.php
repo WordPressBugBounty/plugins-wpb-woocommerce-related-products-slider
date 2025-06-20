@@ -199,7 +199,7 @@ if( !function_exists( 'wpb_wrps_pro_version_info' ) ){
 			<li>Free and quick support.</li>
 			<li>Free installation service ( if needed ).</li>
 		</ul>
-		<a class="wpb_get_pro_btn" href="http://bit.ly/1IpFfXU" target="_blank">Get The Pro Version</a>
+		<a class="wpb_get_pro_btn" href="https://wpbean.com/downloads/wpb-woocommerce-related-products-slider-pro/" target="_blank">Get The Pro Version</a>
 		<?php
 	}
 }

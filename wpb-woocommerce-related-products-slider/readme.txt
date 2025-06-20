@@ -3,7 +3,7 @@ Contributors: wpbean, imranwpb
 Tags: related products slider, related products, custom related products, woocommerce related products, products slider
 Requires at least: 5.0
 Tested up to: 6.8.1
-Stable tag: 1.6
+Stable tag: 1.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -207,5 +207,8 @@ Go to this plugin setting page, and uncheck the "<b>Enable Related Products Slid
 
 = version 1.6 =
 * Code improvement
+
+= version 1.7 =
+* UX improvement.
 
 == Upgrade notice ==

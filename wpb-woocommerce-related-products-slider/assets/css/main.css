@@ -101,6 +101,7 @@ body{
     padding: 8px 16px;
     font-size: 14px;
     line-height: 14px;
+    margin-top: 5px;
     text-transform: uppercase;
 }
 .wrps_related_products_area .owl-theme .owl-nav {
@@ -179,10 +180,9 @@ body{
 	position: absolute;
 	left: 0;
 	top: auto;
-	padding: 10px 0;
-	background: rgba(0,0,0,0.5);
+	padding: 15px;
+	background: rgba(0,0,0,0.6);
 	text-align: center;
-	height: 100px;
 	width: 100%;
 	bottom: 0;
 	opacity: 0;
@@ -210,9 +210,6 @@ body{
 .wrps_related_products.wrps_theme_hover .wpb_wrps_price del {
 	color: #ffffff;
 }
-.wrps_related_products.wrps_theme_hover .wpb_wrps_cart_btn {
-
-}
 .wrps_related_products.wrps_theme_hover .wpb_wrps_cart_btn a.button,
 .wrps_related_products.wrps_theme_hover .wpb_wrps_cart_btn a.added_to_cart {
     background: transparent;
@@ -222,7 +219,7 @@ body{
 .wrps_related_products.wrps_theme_hover .wpb_wrps_cart_btn a.button:hover,
 .wrps_related_products.wrps_theme_hover .wpb_wrps_cart_btn a.added_to_cart:hover {
 	background: #ffffff;
-	color: rgba(0,0,0,0.5);
+	color: #000;
 }
 
 
@@ -230,32 +227,27 @@ body{
  * Theme Box
  */
 
-.wrps_related_products.wrps_theme_box .wpb-wrps-item {
-	background: rgba(238, 238, 238, 0.22);
-}
-.wrps_related_products.wrps_theme_box figure {
-    display: block;
-    padding: 8px;
-}
 .wrps_related_products.wrps_theme_box figcaption {
+	background: rgba(238, 238, 238, 0.60);
 	text-align: center;
+    padding: 15px;
 }
 .wrps_related_products.wrps_theme_box .wpb_wrps_title {
-	margin: 10px 0;
+	margin: 0 0 10px;
 }
 .wrps_related_products.wrps_theme_box .wpb_wrps_title a {
-	color: #666;
+	color: #3b3b3b;
 }
 .wrps_related_products.wrps_theme_box .wpb_wrps_cart_btn a.button,
 .wrps_related_products.wrps_theme_box .wpb_wrps_cart_btn a.added_to_cart {
-    background: #888;
+    background: #3b3b3b;
     color: #fff;
-    border-color: #888;
+    border-color: #3b3b3b;
 }
 .wrps_related_products.wrps_theme_box .wpb_wrps_cart_btn a.button:hover,
 .wrps_related_products.wrps_theme_box .wpb_wrps_cart_btn a.added_to_cart:hover {
 	background: #ffffff;
-	color: rgba(0,0,0,0.5);
+	color: #3b3b3b;
 }
 
 
