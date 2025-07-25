@@ -2,8 +2,8 @@
 Contributors: wpbean, imranwpb
 Tags: related products slider, related products, custom related products, woocommerce related products, products slider
 Requires at least: 5.0
-Tested up to: 6.8.1
-Stable tag: 1.7
+Tested up to: 6.8.2
+Stable tag: 1.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -20,7 +20,7 @@ It has settings to manage the style settings & some basic setups.
 >[Get The PRO Version](https://wpbean.com/downloads/wpb-woocommerce-related-products-slider-pro/)  |   [DEMO](http://demo2.wpbean.com/?product=happy-ninja)  |  [Support](http://wpbean.com/support/)
 
 ### 👋 Need expert WordPress & WooCommerce development help?
-I’m currently available for hire — WordPress and WooCommerce development, custom features, bug fixing, speed optimization, performance tuning, SEO improvements, and more.
+I’m currently available for hire — WordPress and WooCommerce development, custom features, bug fixing, speed optimization, performance tuning, full site development, and more.
 With over 10 years of experience building high-quality WordPress solutions, I can help you take your website to the next level. 
 [__Contact me here →__](https://wpbean.com/web-development-services/?utm_source=WordPress&utm_medium=desc-link&utm_campaign=available-for-hire&utm_content=WPB+WooCommerce+Related+Products+Slider)
 
@@ -210,5 +210,8 @@ Go to this plugin setting page, and uncheck the "<b>Enable Related Products Slid
 
 = version 1.7 =
 * UX improvement.
+
+= version 1.8 =
+* Template override system added.
 
 == Upgrade notice ==

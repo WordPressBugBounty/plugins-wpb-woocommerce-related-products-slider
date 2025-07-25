@@ -78,44 +78,7 @@ if( !function_exists('wpb_wrps_related_products') ){
 					<div class="wrps_related_products owl-carousel owl-theme <?php echo esc_attr( $wpb_wrps_theme ); ?>" <?php echo wpb_wrps_carousel_data_attr_implode( $slider_attr ); ?>>
 
 						<?php while ($wp_query->have_posts()) : $wp_query->the_post();?>
-
-							<?php 
-								global $post, $product;
-								$price_html = $product->get_price_html();
-							?>
-
-							<div <?php post_class( 'wpb-wrps-item' ); ?>>
-
-								<?php 
-									if ( $product->is_on_sale() ) {
-							        	echo apply_filters( 'woocommerce_sale_flash', '<span class="wpb_wrps_onsale">' . esc_html__( 'Sale!', 'wpb-wrps' ) . '</span>', $post, $product );
-							        }
-								?>
-
-								<figure>
-									<a href="<?php the_permalink(); ?>" class="wpb_wrps_img_url"><?php echo woocommerce_get_product_thumbnail(); ?></a>
-									<figcaption>
-										
-										<?php do_action( 'wpb_wrps_before_title', $product ) ?>
-										<h3 class="wpb_wrps_title">
-											<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-										</h3>
-										<?php do_action( 'wpb_wrps_after_title', $product ) ?>
-
-										<?php echo ( $price_html ? '<div class="wpb_wrps_price">'.$price_html.'</div>' : '' ); ?>
-
-										<?php do_action( 'wpb_wrps_after_price', $product ) ?>
-
-										<div class="wpb_wrps_cart_btn">
-											<?php woocommerce_template_loop_add_to_cart(); ?>
-										</div>
-
-										<?php do_action( 'wpb_wrps_after_cart', $product ) ?>
-
-									</figcaption>
-								</figure>
-							</div>
-
+							<?php wpb_wrps_get_template( 'wrps-content-product.php'); ?>
 						<?php endwhile; ?>
 
 					</div><!-- wrps_related_products_area -->
