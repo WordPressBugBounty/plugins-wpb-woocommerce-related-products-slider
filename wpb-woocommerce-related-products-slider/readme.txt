@@ -1,4 +1,4 @@
-=== WPB Related Products Slider for WooCommerce ===
+=== Related Products Slider for WooCommerce – Increase Sales with Product Recommendations ===
 Contributors: wpbean, imranwpb
 Tags: related products slider, related products, custom related products, woocommerce related products, products slider
 Requires at least: 5.0
