@@ -1,9 +1,9 @@
-=== Related Products Slider for WooCommerce – Increase Sales with Product Recommendations ===
+=== Related Products Slider for WooCommerce – Boost Sales with Smart Product Recommendations ===
 Contributors: wpbean, imranwpb
 Tags: related products slider, related products, custom related products, woocommerce related products, products slider
 Requires at least: 5.0
-Tested up to: 6.9.4
-Stable tag: 1.9
+Tested up to: 7.0
+Stable tag: 2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,11 +13,11 @@ Replace the default WooCommerce related products with a responsive, dynamic slid
 
 WPB WooCommerce Related Products Slider is a powerful and user-friendly plugin that transforms the default WooCommerce related products area into a smooth, responsive slider on your single product pages. Designed to improve product discovery and boost engagement, this related products slider enhances the shopping experience by presenting complementary and category-matched products in an eye-catching carousel format without any complex setup — just activate and it’s ready to go.
 
+>[Get The PRO Version](https://wpbean.com/downloads/wpb-woocommerce-related-products-slider-pro/)  |   [DEMO](http://demo2.wpbean.com/?product=happy-ninja)  |  [Support](http://wpbean.com/support/)
+
 Built with performance and compatibility in mind, this plugin works seamlessly with all standard WooCommerce themes and looks great on desktops, tablets, and mobile devices. The dynamic related products slider not only enhances cross-selling and upselling opportunities, but also enriches user experience by encouraging visitors to explore more relevant products with minimal effort.
 
 With intuitive style settings and lightweight design, WPB WooCommerce Related Products Slider gives you attractive, professional-grade product recommendation functionality that’s easy to customize and optimized for conversion.
-
->[Get The PRO Version](https://wpbean.com/downloads/wpb-woocommerce-related-products-slider-pro/)  |   [DEMO](http://demo2.wpbean.com/?product=happy-ninja)  |  [Support](http://wpbean.com/support/)
 
 ### A WooCommerce related products slider can be incredibly helpful for several reasons:
 
@@ -211,5 +211,8 @@ Go to this plugin setting page, and uncheck the "<b>Enable Related Products Slid
 
 = version 1.9 =
 * Removed the hire notice.
+
+= version 2.0 =
+* Settings layout improvement.
 
 == Upgrade notice ==
