@@ -27,7 +27,7 @@
 		            items: tablet,
 		        },
 		        1170:{
-		            1024: desktopsmall,
+		            items: desktopsmall,
 		        },
 		        1200:{
 		            items: items,
